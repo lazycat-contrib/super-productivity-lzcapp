@@ -1,0 +1,12 @@
+application:
+  subdomain: super-productivity
+  background_task: true
+  public_path:
+    - /
+  upstreams:
+    - location: /
+      backend: http://super-productivity:80/
+services:
+  super-productivity:
+    # upstream: johannesjo/super-productivity:v13.0.10
+    image: johannesjo/super-productivity:v13.0.10
