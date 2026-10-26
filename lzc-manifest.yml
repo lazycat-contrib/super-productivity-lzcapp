@@ -8,5 +8,5 @@ application:
       backend: http://super-productivity:80/
 services:
   super-productivity:
-    # upstream: johannesjo/super-productivity:v19.3.0
-    image: registry.lazycat.cloud/czyt/johannesjo/super-productivity:fa54fc72f86980af
+    # upstream: johannesjo/super-productivity:v19.3.1
+    image: registry.lazycat.cloud/czyt/johannesjo/super-productivity:6373c05a8e38f577
